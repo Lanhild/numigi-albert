@@ -68,5 +68,5 @@ fpm -s dir -t deb -p "$NAME"-"$VERSION"-any."$TYPE" \
 	--description "$DESC" \
 	--url "$URL" \
 	--maintainer "$MAINTAINER" \
-	--after-install postinst/install-hook
-	
+	--after-install postinst/install-hook \
+  postinst=/usr/bin/"$NAME"
