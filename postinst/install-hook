@@ -17,5 +17,4 @@ curl -fsSL https://download.opensuse.org/repositories/home:manuelschneid3r/xUbun
 echo 'Updating sources...' 
 sudo apt update
 
-echo 'Installing the binary...'
-sudo apt install albert
+echo 'Run the command sudo apt install albert to install the Albert application launcher'
